@@ -9,11 +9,64 @@
 </head>
 
 <body>
-
+  <h2>Exercício 1</h2>
   <form data-js="form">
     <label for="username">Username</label>
     <input data-js="username" type="text" name="username" id="username">
   </form>
+
+  <br>
+  <hr><br>
+
+  <h2>Exercício 3</h2>
+
+  <table data-js="table" class="table">
+    <thead>
+      <tr>
+        <th>Imagem</th>
+        <th>Modelo</th>
+        <th>Ano</th>
+        <th>Placa</th>
+        <th>Cor</th>
+      </tr>
+    </thead>
+
+    <tbody data-js="tabela-carros"></tbody>
+  </table><br><br>
+
+  <form data-js="carros">
+    <div class=" form-group">
+      <label for="imagem">Imagem:</label>
+      <input data-js="imagem" type="text" id="imagem">
+    </div><br>
+
+    <div class="form-group">
+      <label for="modelo">Modelo:</label>
+      <input data-js="modelo" type="text" id="modelo">
+    </div><br>
+
+    <div class="form-group">
+      <label for="ano">Ano:</label>
+      <input data-js="ano" type="number" id="ano">
+    </div><br>
+
+    <div class="form-group">
+      <label for="placa">Placa:</label>
+      <input data-js="placa" type="text" id="placa">
+    </div><br>
+
+    <div class="form-group">
+      <label for="cor">Cor:</label>
+      <input data-js="cor" type="text" id="cor">
+    </div><br>
+
+    <button class="btn" type="submit">Adicionar</button>
+  </form>
+
+
+  <br>
+
+
 
   <script type="module" src="/src/main.js"></script>
 </body>
